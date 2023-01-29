@@ -1,0 +1,43 @@
+.profile-post {
+  width: 70%;
+}
+.post {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(61, 5, 3, 0.3);
+}
+.post > * {
+  margin: 10px 0;
+}
+.post-head {
+  display: flex;
+  align-items: center;
+}
+.post-user-name {
+  margin: 0 10px;
+}
+.time {
+  font-size: 0.8rem;
+  margin-left: 40px;
+}
+.post-profile {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.post-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* =====================
+     Responsive
+  ===================== */
+@media screen and (max-width: 600px) {
+  .profile-post {
+    width: 100%;
+  }
+}

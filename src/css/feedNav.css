@@ -1,0 +1,53 @@
+.nav {
+  padding: 20px 0;
+  text-align: right;
+  display: flex;
+  background-color: rgb(61, 5, 3, 0.3);
+}
+.feed-logo {
+  width: 25%;
+  text-align: center;
+}
+.feed-left {
+  display: flex;
+  text-align: center;
+}
+.left > a {
+  font-size: 2rem;
+  margin: 0 30px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 1.3rem;
+  text-align: right;
+  transition: 0.5s;
+}
+
+a:hover {
+  opacity: 0.6;
+}
+
+/* =================
+Resposive
+================= */
+
+@media screen and (max-width: 600px) {
+  .nav {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    display: block;
+  }
+  .feed-logo {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .left > a {
+    margin: 0 20px;
+  }
+  .right {
+    display: none;
+  }
+}
